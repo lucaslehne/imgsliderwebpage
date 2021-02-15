@@ -1,0 +1,160 @@
+/* Fonts ****************/
+
+@font-face {
+  font-family: bubbleboy;
+  src: url(fonts/bubbleboy/BUBBLEBOY2.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: almond_cream;
+  src: url(fonts/almond_cream/AlmondCream.ttf);
+}
+/*********************/
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#68c197, #17257d);
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: bubbleboy;
+  font-size: 35px;
+  text-shadow: 2px 2px #68c197;
+}
+
+h1:hover{
+  color: #17257d;
+}
+
+h2 {
+  font-family: almond_cream;
+  font-size: 40px;
+}
+
+h2 {
+  justify-content: center;
+  display: flex;
+}
+h2:hover{
+  color: #68c197;
+}
+h3 {
+  font-family: roboto;
+  font-size: 20px
+}
+
+h3 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+#container{
+  position: relative;
+  justify-content: center;
+}
+#background-image{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+
+}
+#content{
+
+  background: #5771c5;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  border: 3px solid #000;
+}
+#content:hover{
+  color: #000;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 25px;
+  text-align: center;
+}
+
+li{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-family: roboto;
+  padding: 5px;
+}
+a:link{
+  color: #000;
+}
+a:visited{
+  color: #063a52;
+}
+
+a:hover{
+  color: #910f0f;
+}
+
+/* slider*************/
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  float: left;
+  width: 20%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
