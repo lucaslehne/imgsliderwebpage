@@ -20,7 +20,7 @@
 body{
   display: flex;
   justify-content: center;
-  background: linear-gradient(#68c197, #17257d);
+  background: radial-gradient(#68c197, #17257d);
 }
 h1{
   display: flex;
@@ -61,6 +61,8 @@ h3 {
 #container{
   position: relative;
   justify-content: center;
+  width: 500px;
+
 }
 #background-image{
   margin: 10px;
@@ -70,17 +72,19 @@ h3 {
 
 }
 #content{
-
   background: #5771c5;
   padding: 25px;
   margin-bottom: 50px;
   border-radius: 50px;
-  border: 3px solid #000;
+
+  text-align: center;
+  box-shadow: 7px 7px 5px ;
 }
+
 #content:hover{
   color: #000;
 }
-
+#content
 ul{
   list-style-type: none;
   padding: 0px;
@@ -116,12 +120,10 @@ a:hover{
 
 #slider figure {
   position: relative;
-  display: flex;
-  justify-content: center;
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 5s slider infinite;
 }
 
 #slider figure img {
