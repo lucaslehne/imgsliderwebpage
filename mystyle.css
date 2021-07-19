@@ -20,7 +20,7 @@
 body{
   display: flex;
   justify-content: center;
-  background: radial-gradient(#68c197, #17257d);
+  background: radial-gradient(#68c197, #0a094e);
 }
 h1{
   display: flex;
