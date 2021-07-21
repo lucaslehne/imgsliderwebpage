@@ -49,8 +49,10 @@ h2:hover{
   color: #68c197;
 }
 h3 {
-  font-family: roboto;
-  font-size: 20px
+  font-family: bubbleboy;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
 }
 
 h3 {
@@ -102,7 +104,7 @@ a{
   padding: 5px;
 }
 a:link{
-  color: #000;
+  color: #fff;
 }
 a:visited{
   color: #063a52;
@@ -159,4 +161,11 @@ a:hover{
   100% {
     left: -400%;
   }
+}
+
+#resume img{
+  width: 400px;
+  height: 556px;
+
+
 }
