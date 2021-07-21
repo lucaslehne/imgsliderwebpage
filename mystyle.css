@@ -20,8 +20,16 @@
 body{
   display: flex;
   justify-content: center;
-  background: radial-gradient(#68c197, #0a094e);
 }
+
+body{
+  background-image: url('img/concrane-done.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+
+
+ }
+ 
 h1{
   display: flex;
   justify-content: center;
