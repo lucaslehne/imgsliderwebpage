@@ -23,13 +23,10 @@ body{
 }
 
 body{
-  background-image: url('img/concrane-done.jpg');
-  background-size: cover;
-  background-repeat: repeat-y;
-
+  background-color: #000;
 
  }
- 
+
 h1{
   display: flex;
   justify-content: center;
@@ -38,6 +35,7 @@ h1{
   font-family: bubbleboy;
   font-size: 35px;
   text-shadow: 2px 2px #68c197;
+  color: #000;
 }
 
 h1:hover{
@@ -47,6 +45,7 @@ h1:hover{
 h2 {
   font-family: almond_cream;
   font-size: 40px;
+  color: #000;
 }
 
 h2 {
@@ -91,8 +90,8 @@ h3 {
   box-shadow: 7px 7px 5px ;
 }
 
-#content:hover{
-  color: #000;
+#content{
+  color: #68c197;
 }
 #content
 ul{
